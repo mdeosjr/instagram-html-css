@@ -1,0 +1,459 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+    
+}
+
+.topo {
+    height: 54px;
+    width: 100%;
+    border: 1px solid #DBDBDB;
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1000;
+}
+
+.topomobile {
+    display: none;
+}
+
+.navmobile {
+    display: none;
+}
+
+.logo {
+    width: 142px;
+
+    display: flex;
+    justify-content: space-between
+} 
+
+.separador {
+    width: 1px;
+    height: 22px;
+
+    background: #DBDBDB;
+}
+
+ion-icon {
+    font-size: 21px;
+}
+
+.caixa-topo {
+    width: 935px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.pesquisar {
+    width: 215px;
+    height: 28px;
+
+    background: #FAFAFA;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #979797;
+}
+
+.botoes {
+    width: 124px;
+
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.stories {
+    width: 614px;
+    height: 118px;
+
+    display: flex;
+    align-items: center;
+    
+    overflow: hidden;
+
+    position: relative;
+
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+
+.stories ion-icon {
+    position: absolute;
+    right: 8px;
+
+    width: 26px;
+    height: 26px;
+
+    z-index: 700;
+    color: #FFFFFF;
+}
+
+.story {
+    width: 66px;
+    margin: 0 8px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.maior {
+    width: 66px;
+    height: 66px;
+    padding-bottom: 6px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back {
+    width: 66px;
+    height: 66px;
+}
+
+.foto {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+}
+
+.conteudo {
+    width: 935px;
+    
+    margin: 0 auto;
+    padding-top: 88px;
+
+    display: flex;
+    position: relative;
+}
+
+.principal {
+    margin-right: 29px;
+}
+
+.post {
+    background: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-bottom: 60px;
+
+    box-sizing: border-box;
+}
+
+.post img {
+    width: 100%;
+}
+
+.post .inferior {
+    padding-left: 5px;
+}
+
+.post .interacoes {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 0 0 0;
+}
+
+video {
+    width: 100%;
+}
+
+.post .ei {
+    width: 100px;
+    padding-left: 3px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}       
+
+.post .ed {
+    padding-right: 17px;
+}
+
+.likes img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.likes {
+    display: flex;
+    
+    padding: 14px 10px;
+}
+
+.post .superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.post .superior img {
+    height: 34px;
+    width: 34px;
+    padding: 15px 15px 13px 17px;
+}
+
+.post .es {
+    display: flex;
+    align-items: center;
+}
+
+.post p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    padding-top: 2px;
+}
+
+.post .superior p {
+    padding-top: 4px;
+}
+
+.post span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.post .ds {
+    padding-right: 17px;
+}
+
+.sidebar {
+    width: 293px;
+    position: fixed;
+    margin-left: 643px;
+}
+
+.perfil {
+    display: flex;
+    padding-top: 25px;
+}
+
+.perfil img {
+    width: 56px;
+    height: 56px;
+    padding-top: 6px;
+}
+
+.texto-perfil {
+    padding: 17px ;
+}
+
+.texto-perfil p, .s2 .nome-perfil {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+
+    color: #262626;
+}
+
+.texto-perfil .nome-perfil {
+    font-weight: 300;
+    color: #8E8E8E;
+    padding-top: 1px;
+}
+
+.sugestoes {
+    margin-bottom: 33px;
+    padding-top: 11px;
+}
+
+.s1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.s11, .s21 span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #8E8E8E;
+}
+
+.s12 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #262626;
+}
+
+.s2 {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 18px;
+}
+
+.s2 .s21 {
+    display: flex;
+    flex-direction: column;
+}
+
+.s2 .follow {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #139EF2;
+
+    justify-content: flex-end;
+}
+
+.fs {
+    display: flex;
+}
+
+.fs img {
+    padding-right: 11px;
+}
+
+.rodape {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    flex-direction: column;
+
+    color: #C7C7C7;
+}
+
+.rodape p {
+    margin-bottom: 17px;
+}
+
+@media (max-width: 935px) {
+    body {
+        width: 100%;
+		display: flex;
+		flex-direction: column;
+    }
+
+    .caixa-topo {
+        padding: 0 18px;
+    }
+
+    .conteudo {
+        width: 95%;
+        display: flex;
+		flex-direction: column;
+        align-items: center;
+    }
+
+    .principal {
+        margin: 0;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+}
+
+@media (max-width: 614px) {
+    .topo {
+        display: none;
+    }
+    
+    .topomobile {
+        display: initial;
+        height: 54px;
+        width: 100%;
+        border: 1px solid #DBDBDB;
+        background-color: #FFFFFF;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+        z-index: 1000;
+    }
+
+    .topomobile img {
+        margin: 0 90px;
+    }
+
+    .navmobile {
+        height: 54px;
+        width: 100%;
+        border: 1px solid #DBDBDB;
+        background-color: #FFFFFF;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        position: fixed;
+        bottom: 0;
+        z-index: 1000;
+    }
+
+    .conteudo {
+        width: 100%;
+        padding: 54px 0;
+
+        display: flex;
+		flex-direction: column;
+        align-items: center;
+    }
+
+    .stories {
+        margin: 0;
+
+        background-color: #E5E5E5;
+    }
+
+    .stories ion-icon {
+        display: none;
+    }
+}
